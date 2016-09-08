@@ -1,0 +1,19 @@
+{
+  "name": "Database",
+  "version": "1.0.0",
+  "description": "Database",
+  "main": "database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OSU",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.2",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.8.0",
+    "client-sessions": "^0.7.0",
+    "request": "^2.72.0"
+  }
+}

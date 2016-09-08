@@ -1,0 +1,32 @@
+<table id="dataTable">
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Description</th>
+      <th>City</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+
+{{#each dataList}}
+    <tr>
+      <td>{{this.RequestType}}</td>
+      <td>{{this.Description}}</td>
+      <td>{{this.City}}</td>
+      <td>
+      <form action="/list" method="get">
+        <input type="hidden" name="id" value="{{this.id}}">
+
+        <input type="submit" value="Pick Job"/>
+      </form>
+      <td>
+  </tr>
+{{/each}}
+
+  </tbody>
+</table>
+
+<form action="/requests" method="get">
+  <button type="submit">Repair Request List</button>
+</form>

@@ -1,0 +1,15 @@
+<form action="/requests" method="get">
+  <legend>New Request</legend>
+    <p>Description: <input type="text" name="Description" /></p>
+    <p>Repair Type: <select name="RequestType">
+    	<option value=""></option>
+  		<option value="Electrical">Electrical</option>
+  		<option value="Plumbing">Plumbing</option>
+  		<option value="Carpentry">Carpentry</option>
+	</select></p>
+    <p><input type="submit" /></p>
+</form>
+
+<form action="/list" method="get">
+	<button type="submit">Repair Job List</button>
+</form>

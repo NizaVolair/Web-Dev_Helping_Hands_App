@@ -1,0 +1,43 @@
+/* 
+    William Kim
+    kimw@Oregonstate.edu
+    CS290
+    style.css
+    3/7/16
+*/
+body {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    height: 50px;
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+title, legend {
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 200%
+}
+
+input[type=submit] {
+    border: 1px solid #7300e6;
+    color: #ffffff;
+    background:  #7300e6;
+    padding: 5px 10px;
+    border-radius: 3px;    
+}
